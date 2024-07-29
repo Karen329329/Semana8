@@ -11,6 +11,6 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     echo "Conexión exitosa con PDO<br>";
 } catch(PDOException $e) {
-    echo "Conexión fallida - ERROR: " . $e->getMessage();
+    echo "No Hay Conexión - ERROR: " . $e->getMessage();
 }
 ?>
